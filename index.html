@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contaminacion</title>
+
+<!--grupo CSS-->
+<!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>-->
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/app3.min.css">
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/contaminacionacustica.png','imagenes/contaminacionluminica1.jpg','imagenes/contaminaciontermica1.jpg','imagenes/contaminacionradioactiva.jpg','imagenes/contaminacionsuelo2.jpe','imagenes/contaminacionaire2.jpg','imagenes/4R.jpg')">
+  
+  <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Maria Guadalupe Moreno Cruz 4F</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h2>Contaminacion</h2>
+      <div>
+        <p>Matan a nuestro planeta</p>
+        <br>
+      </div>
+      <div>
+        <img src="imagenes/comparacion.jpg" width="50%" height="50%">
+      </div>
+    </div>
+  </div>
+ <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>¿Que es la contaminación?</h2>
+      <p>Definicion</p>
+    </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class=" ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>¿Tu como contaminas?</h2>
+      <p>tipos de contaminación</p>
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Consecuencias de la contaminacion</h2>
+       <p>Calentamiento global</p>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>3R</h2>
+       <p>reduce, recicla, reutiliza</p>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>¿como puedo mejorar mi entorno?</h2>
+       <p>medidas correctivas</p>
+     </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>La contaminacion en mi entorno</h2>
+         <p>vizor con la contaminacion en mi entorno</p>
+       </a>
+     </li>
+   </ul>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/ultima.jpg" width="80" height="80">
+   </div>
+   <div>
+    <h4>Aplicacion Tres</h4>
+    <h4>María Guadalupe Moreno Cruz</h4>
+   </div>
+  </div>
+ </div>
+   <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>La contaminación</h1>
+     </div>
+     <div data-role="content" align="center">
+       <div>
+         <p>La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1 El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad). Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.</p>
+       </div>
+       <div>
+         <img src="imagenes/contaminacion.png" width="400" height="300";
+       </div>
+     </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Tres, MGMC</h4>
+     </div>
+    </div>
+    </div>
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Tipos de contaminacion</h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+        <div data-role="collapsible" data-content-theme="false">
+        <h2>Contaminación del Agua</h2>
+      <div>
+        <br>
+        <p class="sub">Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que sfren distintos cuerpos de agua. Varias criaturas acuáticas dependen de estos cuerpos de agua y sus características naturales nutritivos para apoyar su vida.
+Contaminación del Agua</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('agua','','imagenes/contaminacionAgua2.jpg',0)"><img src="imagenes/contaminacionAgua1.jpg" width="300" height="300" id="agua"></a>
+      </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+        <h2>Contaminación Acustica</h2>
+        <div>
+        <br>
+        <p class="sub">No es muy fácil de definir la definición de la contaminación acústica. Esencialmente, la contaminación acústica es el tipo de contaminación que se produce por diferentes fuentes de audio que está causando la sensación de irritación, distracción para nuestro medio ambiente. Esta contaminación no es no sólo perturbar el medio ambiente sino que también produce daño a nuestra humanidad.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('acustica','','imagenes/contaminacionacustica.png',1)"><img src="imagenes/contaminacionacustica2.gif" width="300" height="300" id="acustica"></a>
+      </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+        <h2>Contaminación Lumínica</h2>
+       <div> 
+        <br>
+        <p class="sub">La luz artificial se está convirtiendo en un peligro para nuestra planeta. Esta no sólo afecta a la belleza natural, sino a seres humanos, los animales, las aves y la vegetación. Por lo tanto, el ciclo de vida de los seres vivos también está siendo afectada por la contaminación lumínica.</p>  
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('luminica','','imagenes/contaminacionluminica1.jpg',1)"><img src="imagenes/contaminacionluminica2.jpg" width="360" height="280" id="luminica"></a>
+      </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+        <h2>Contaminación Térmica</h2>
+       <div> 
+        <br>
+        <p class="sub">Es un hecho bien conocido que la quema de combustibles fósiles en centrales eléctricas, hornos industriales y motores de vehículos causa la contaminación del aire. Sin embargo, un menor impacto conocido asociado con estos procesos de generación de energía es la contaminación térmica.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('termica','','imagenes/contaminaciontermica1.jpg',1)"><img src="imagenes/contaminaciontermica2.jpg" width="300" height="300" id="termica"></a>
+      </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false">
+        <h2>Contaminación radiactiva</h2>
+     <div>   
+        <br>
+        <p class="sub">Los desechos radiactivos son residuos que contienen material radiactivo. Los desechos radiactivos son generalmente subproductos de la generación de energía nuclear y otras aplicaciones de la fisión nuclear o tecnología nuclear, como la investigación y la medicina. Los residuos radiactivos son peligrosos para la salud humana y el medio ambiente, y está regulado por las agencias gubernamentales con el fin de proteger la salud humana y el medio ambiente.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('radiactiva','','imagenes/contaminacionradioactiva.jpg',1)"><img src="imagenes/contaminacionradioactiva2.png" width="200" height="200" id="radiactiva"></a>
+      </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false" style="background-image:url(imagenes/suelo.jpg)">
+        <h2>Contaminación del Suelo</h2>
+       <div> 
+        <br>
+        <p class="sub">La contaminación del suelo se refiere a la contaminación del suelo por medio de exceso de fertilizantes, productos químicos, insecticidas, herbicidas, pesticidas, etc provocan contaminación del suelo en la disminución de la calidad del suelo y es causada por la erosión del suelo.</p> 
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('suelo','','imagenes/contaminacionsuelo2.jpe',1)"><img src="imagenes/contaminacionsuelo.png" width="220" height="220" id="suelo"></a>
+      </div>
+      </div>
+      <div data-role="collapsible" data-content-theme="false" style="background-image:url(imagenes/aire.jpg)">
+        <h2>Contaminación del Aire</h2>
+       <div> 
+        <br>
+        <p class="sub">El monóxido de carbono y óxido de azufre se consideran contaminantes primarios. Estos contaminantes sufren cambios químicos y causan efectos secundarios tales como smog. La contaminación del aire se define por la existencia y la integración de los compuestos tóxicos en el ambiente en concentraciones lo suficientemente altas como para causar daño a los seres humanos, los animales y el medio ambiente de la Tierra.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aire','','imagenes/contaminacionaire2.jpg',1)"><img src="imagenes/contaminacionaire1.jpg" width="360" height="200" id="aire"></a>
+      </div>
+      </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Tres, MGMC</h4>
+        </div>
+      </div>
+     </div>
+     </div>
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Concecuencias</h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+        <div data-role="collapsible" data-content-theme="false">
+          <h2>Problemas para la salud:</h2>
+          <div>
+          <p> la contaminación hace que las personas estemos cada vez más expuestas a padecer problemas cardiovasculares, con el grave peligro que esto entraña para nuestra salud y vida.</p>
+          </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h2>Debilitamiento de la capa de ozono: </h2>
+          <div>
+          <p>la capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa. la consecuencia de este debilitamiento es que cada vez nos protege menos y, por ende, cada vez tenemos una mayor temperatura en el planeta. Esto no solo hace que cada vez haya más zonas desiertas en las que es imposible vivir, sino que también hace que el hielo en los polos se deshaga y mueran muchas especies por ello. No hace falta mencionar que esto hace subir indudablemente el nivel del mar y que, de seguir así, muchas ciudades costeras se verán arrasadas, quedándose sin playas y sin zona costera.</p>
+          </div>
+          </div>
+         <div data-role="collapsible" data-content-theme="false">
+          <h2>La contaminación afecta al suelo y al agua:</h2> 
+          <div>
+          <p> la contaminación al medio ambiente afecta al agua y al suelo, lo que hace que cada vez haya más especies en peligro de extinción. El agua no es potable en una gran cantidad de sitios y el suelo para la siembre no tiene los nutrientes necesarios, lo que hace que cada vez se pueda cultivar menos y que el número de cosechas para nuestro sustento sea cada vez menor.</p>
+          </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h2>La contaminación afecta al clima:</h2>
+          <p> seguro que ya te has dado cuenta que los inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos, a la vez que seguro te has dado cuenta que las estaciones como el invierno y el verano pueden ser más largas y que las de temperaturas medias, son cada vez más cortas. Todos estos cambios y los fenómenos que no se habían visto desde  hace mucho tiempo o incluso nunca se habían visto son causados por la contaminación.</p>
+          </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h2>calentamiento global</h2>
+          <div>
+          <p> se refieren al aumento observado en los últimos siglos de la temperatura del sistema climático de la Tierra y sus efectos. Múltiples líneas de pruebas científicas demuestran que el sistema climático se está calentando. Aunque a menudo la prensa popular comunica el incremento de la temperatura atmosférica superficial como medición del calentamiento global</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicacion Tres, MGMC</h4>
+      </div>
+      </div>
+      <!--</div>-->
+      
+      <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>3 R</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('3r','','imagenes/4R.jpg',1)"><img src="imagenes/3R2.png" width="100%" id="3r"></a> </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4>Aplicacion Tres, MGMC</h4>
+        </div>
+      </div>
+      <!--</div>-->
+      
+      <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Medidas correctivas</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+            <h2>propuesta</h2>
+            <img src="imagenes/Medidascorrectivas.jpg" width="100%">
+            <h3>1. Cambia las bombillas</h3>
+<p>Reemplazar una bombilla tradicional por una de bajo consumo ahorra más de 45 kilogramos de dióxido de carbono al año. Cierto que la segunda es más cara, pero resulta más económica a lo largo de su vida. Una sola de ellas puede reducir hasta 60 euros los gastos de electricidad, según la Comisión Europea.</p>
+
+<h3>2. Apaga la tele y el PC</h3>
+<p>Sólo con apagar la televisión, el DVD o el ordenador cuando no estén en uso evitarás que miles de kilos de CO2 salgan a la atmósfera. No dejes los aparatos eléctricos en stand-by (espera): un televisor que permanece encendido durante tres horas al día (la media que los europeos ven la tele) y en stand-by las 21 horas restantes consumirá un 40 por ciento de la energía total en el modo de espera.
+
+No dejes el cargador de tu móvil enchufado todo el tiempo, aunque no esté conectado al teléfono, porque seguirá consumiendo electricidad.</p>
+
+<h3>3. Conduce menos</h3>
+<p>Anda, monta en bicicleta, usa el transporte público. Ahorrarás 30 gramos de CO2 por cada 4,5 kilómetros que no conduzcas. Por cada litro de combustible que quema el motor de un coche, se libera una media de 2,5 kilos de CO2, según la Comisión Europea.
+
+Bruselas también recomienda no correr con el coche: gastarás menos gasolina y emitirás menos CO2. Ir a más de 120 kilómetros por hora aumenta un 30 por ciento el consumo de combustible, frente a una velocidad de 80 kilómetros por hora.</p>
+
+<h3>4. Revisa los neumáticos</h3>
+<p>Si la presión de tus neumáticos baja 0,5 bares, tu coche consumirá un 2,5 por ciento más de combustible y, por tanto, liberará un 2,5 por ciento más de CO2. El ahorro de cuatro litros de gasolina evita la emisión de seis kilos de dióxido de carbono.</p>
+
+<h3>5. Recicla</h3>
+<p>Puedes ahorrar más de 730 kilos de CO2 al año al reciclar la mitad de la basura que se produce en casa.</p>
+
+<h3>6. Evita mucho embalaje</h3>
+<p>Escoge productos con poco envase: una botela de 1,5 litros genera menos residuos que tres de medio litro. En la compra usa bolsas reutilizables. Evita las toallitas húmedas y de papel. Puedes evitar la emisión de 1.100 kilos de CO2 si reduces tu basura un 10 por ciento.</p>
+
+<h3>7.Menos agua caliente</h3>
+<p>Es necesaria una gran cantidad de energía para calentar agua. Instala un regulador de caudal del agua en la ducha y evitarás la emisión de más de 100 kilos de dióxido de carbono al año.
+
+Lava con agua fría o tibia y ahorrarás 150 kilos de CO2. Ahorras agua caliente y gastas cuatro veces menos energía si en vez de un baño te das una ducha. Cierra el grifo mientras te lavas los dientes. Asegúrate de que tus grifos no gotean: el goteo de uno puede hacer perder en un mes el agua suficiente para llenar una bañera.</p>
+
+<h3>8. Vigila los electrodomésticos</h3>
+<p>Tapar la cazuela mientras cocinas es un modo de ahorrar mucha energía. Aún mejor son las ollas a presión y las vaporeras, que ahorran un 70 por ciento de energía.
+
+Usa la lavadora y el lavavajillas sólo cuando estén llenos. Si no lo están, usa programas económicos. No hace falta poner una temperatura alta, hoy los detergentes son eficaces incluso cuando es baja. Recuerda que si el frigorífico y el congelador están cerca de los fuegos o de la caldera, consumirán mucha más energía. Si éstos son viejos, descongélalos periódicamente. Los nuevos tienen ciclos automáticos de descongelación y son casi dos veces más eficientes. No pongas en la nevera alimentos calientes o templados; ahorrarás energía si dejas que se enfríen primero.</p>
+
+<h3>9. Ajusta el termostato</h3>
+<p>La oscilación de dos grados centígrados en invierno y en verano ahorra más de 600 kilos de dióxido de carbono por hogar en un solo año. Bajar la temperatura un grado puede reducir la factura de la calefacción entre un 5 y un 10 por ciento. Cuando ventiles tu casa, abre las ventanas unos minutos, no dejes escapar el calor mucho tiempo.
+Si dejas una pequeña abertura todo el día, la energía necesaria para mantener el interior caliente durante seis meses de frío será de casi una tonelada de emisiones de CO2. Aísla bien tu casa. No abuses de los aparatos de aire acondicionado, consumen mucha energía y emiten unos 650 gramos de CO2. Y supone un coste en tu factura de 10 céntimos de euro por hora.</p>
+
+<h3>10. Planta un árbol</h3>
+<p>Un solo árbol absorbe una tonelada de dióxido de carbono durante toda su vida.</p>
+          </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4>Aplicacion Tres, MGMC</h4>
+        </div>
+      </div>
+      <!--</div>-->
+            
+      <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Contaminación en mi entorno</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/img_20170403_151947.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/img_20170403_151953.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/img_20170403_151958.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/img_20170403_152014.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/img_20170403_152021.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/img_20170403_152025.jpg" alt="wowslideshow" title="" id="wows1_5"/></a></li>
+		<li><img src="data1/images/img_20170403_152038.jpg" alt="" title="" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_151947.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_151953.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_151958.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_152014.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_152021.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_152025.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/img_20170403_152038.jpg" alt=""/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+          </div>
+          <div>
+          <div data-role="collapsible" data-content-theme="false">
+            <h2>Organizaciones</h2>
+            <div>
+            <a href="https://www.nature.org/?redirect=https-301" target="_self"><img src="imagenes/org1.jpeg" width="30%"></a>
+            <br>
+            <a href="http://web.unep.org/americalatinacaribe/" target="_self"><img src="imagenes/org2.jpeg" width="30%"></a>
+            <br>
+            <a href="http://www.earthaction.org/" target="_self"><img src="imagenes/org3.jpeg" width="30%"></a>
+            <br>
+            <a href="http://www.greenpeace.org/espana/es/" target="_self"><img src="imagenes/org4.jpeg" width="30%"></a>
+            <br>
+            <a href="http://www.wwf.es/" target="_self"><img src="imagenes/org5.jpeg" width="30%"></a>
+            </div>
+          </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4>Aplicacion Tres, MGMC</h4>
+        </div>
+      </div>
+      <!--</div>-->
+</body>
+</html>
